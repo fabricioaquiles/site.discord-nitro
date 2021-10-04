@@ -1,0 +1,40 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "main": "webpack.config.js",
+  "scripts": {
+    "server": "ts-node-dev app.ts",
+    "dev": "cross-env NODE_ENV=development webpack --progress --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/react": "^17.0.26",
+    "@types/react-dom": "^17.0.9",
+    "@types/node-sass": "^6.0.1",
+    "node-sass": "^6.0.1",
+    "css-loader": "^6.3.0",
+    "css-modules-typescript-loader": "^4.0.1",
+    "live-server": "^1.2.1",
+    "sass-lint": "^1.13.1",
+    "sass-loader": "^12.1.0",
+    "sasslint-webpack-plugin": "^1.0.4",
+    "style-loader": "^3.3.0",
+    "ts-loader": "^9.2.6",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.3",
+    "webpack": "^5.55.1",
+    "webpack-cli": "^4.8.0"
+  },
+  "dependencies": {
+    "alpinejs": "^3.4.2",
+    "axios": "^0.22.0",
+    "express": "^4.17.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "sweetalert2": "^11.1.7"
+  },
+  "description": ""
+}
