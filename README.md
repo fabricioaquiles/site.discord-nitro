@@ -1,2 +1,2 @@
 # site.discord-nitro
-Site simples parar gerar keys de nitro
+Site simples parar gerar códigos de presentes nitro
