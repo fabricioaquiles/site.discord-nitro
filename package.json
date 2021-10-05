@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "webpack.config.js",
   "scripts": {
-    "server": "ts-node-dev app.ts",
+    "dev:server": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules app.ts",
     "dev": "cross-env NODE_ENV=development webpack --progress --watch"
   },
   "keywords": [],
