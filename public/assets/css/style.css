@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat+Alternates:100,200,300,400,500,600,700,800,900");
+#header {
+    background-image: url("https://www.fun-academy.fr/wp-content/uploads/2020/08/1598561752_0_XGPgamescom_inline1.jpg");
+    background-size: cover;
+    display: flex;justify-content: right;
+    height: 600px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+ul#nav {
+    display: flex;
+    list-style: none; 
+    height: 0;
+}
+ul#nav > li {
+    margin-right: 25px;
+}
+
+ul#nav > li  a{
+    display: flex;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: white;
+    padding: 9px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: rgb(237, 57, 253);
+}
