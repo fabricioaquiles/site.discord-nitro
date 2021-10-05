@@ -5,6 +5,7 @@
   "scripts": {
     "build": "tsc",
     "start": "node build/app",
+    "server": "ts-node-dev app.ts",
     "dev": "cross-env NODE_ENV=production webpack --progress --watch"
   },
   "keywords": [],
