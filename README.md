@@ -1,4 +1,4 @@
-[https://sitediscordnitro.herokuapp.com/#/](https://sitediscordnitro.herokuapp.com/#/)
+https://sitediscordnitro.herokuapp.com/#/
 
 ## Como iniciar?
 Para iniciar o site basta digitar o comando abaixo no seu terminal
