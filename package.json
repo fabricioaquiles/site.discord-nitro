@@ -4,7 +4,7 @@
   "main": "webpack.config.js",
   "scripts": {
     "build": "tsc",
-    "start": "ts-node-dev build/app",
+    "start": "node build/app",
     "dev": "cross-env NODE_ENV=production webpack --progress --watch"
   },
   "keywords": [],
